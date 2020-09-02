@@ -1,0 +1,1314 @@
+<pre style="color:white">Array
+(
+    [#node_edit_form] =&gt; 1
+    [#attributes] =&gt; Array
+        (
+            [class] =&gt; Array
+                (
+                    [0] =&gt; node-form
+                    [1] =&gt; node-job-form
+                )
+
+        )
+
+    [nid] =&gt; Array
+        (
+            [#type] =&gt; value
+            [#value] =&gt; 4
+        )
+
+    [vid] =&gt; Array
+        (
+            [#type] =&gt; value
+            [#value] =&gt; 4
+        )
+
+    [uid] =&gt; Array
+        (
+            [#type] =&gt; value
+            [#value] =&gt; 1
+        )
+
+    [created] =&gt; Array
+        (
+            [#type] =&gt; value
+            [#value] =&gt; 1599051621
+        )
+
+    [type] =&gt; Array
+        (
+            [#type] =&gt; value
+            [#value] =&gt; job
+        )
+
+    [language] =&gt; Array
+        (
+            [#type] =&gt; value
+            [#value] =&gt; und
+        )
+
+    [changed] =&gt; Array
+        (
+            [#type] =&gt; hidden
+            [#default_value] =&gt; 1599051621
+        )
+
+    [title] =&gt; Array
+        (
+            [#type] =&gt; textfield
+            [#title] =&gt; Title
+            [#required] =&gt; 1
+            [#default_value] =&gt; Job 3
+            [#maxlength] =&gt; 255
+            [#weight] =&gt; -5
+        )
+
+    [#node] =&gt; stdClass Object
+        (
+            [vid] =&gt; 4
+            [uid] =&gt; 1
+            [title] =&gt; Job 3
+            [log] =&gt; 
+            [status] =&gt; 1
+            [comment] =&gt; 1
+            [promote] =&gt; 1
+            [sticky] =&gt; 0
+            [nid] =&gt; 4
+            [type] =&gt; job
+            [language] =&gt; und
+            [created] =&gt; 1599051621
+            [changed] =&gt; 1599051621
+            [tnid] =&gt; 0
+            [translate] =&gt; 0
+            [revision_timestamp] =&gt; 1599051621
+            [revision_uid] =&gt; 1
+            [body] =&gt; Array
+                (
+                    [und] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [value] =&gt; 1914 translation by H. Rackham
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+                                    [summary] =&gt; 
+                                    [format] =&gt; filtered_html
+                                    [safe_value] =&gt; <p>1914 translation by H. Rackham<br>
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
+
+                                    [safe_summary] =&gt; 
+                                )
+
+                        )
+
+                )
+
+            [field_employment_type] =&gt; Array
+                (
+                    [und] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [value] =&gt; freelance
+                                )
+
+                        )
+
+                )
+
+            [rdf_mapping] =&gt; Array
+                (
+                    [rdftype] =&gt; Array
+                        (
+                            [0] =&gt; sioc:Item
+                            [1] =&gt; foaf:Document
+                        )
+
+                    [title] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; dc:title
+                                )
+
+                        )
+
+                    [created] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; dc:date
+                                    [1] =&gt; dc:created
+                                )
+
+                            [datatype] =&gt; xsd:dateTime
+                            [callback] =&gt; date_iso8601
+                        )
+
+                    [changed] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; dc:modified
+                                )
+
+                            [datatype] =&gt; xsd:dateTime
+                            [callback] =&gt; date_iso8601
+                        )
+
+                    [body] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; content:encoded
+                                )
+
+                        )
+
+                    [uid] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; sioc:has_creator
+                                )
+
+                            [type] =&gt; rel
+                        )
+
+                    [name] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; foaf:name
+                                )
+
+                        )
+
+                    [comment_count] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; sioc:num_replies
+                                )
+
+                            [datatype] =&gt; xsd:integer
+                        )
+
+                    [last_activity] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; sioc:last_activity_date
+                                )
+
+                            [datatype] =&gt; xsd:dateTime
+                            [callback] =&gt; date_iso8601
+                        )
+
+                )
+
+            [cid] =&gt; 0
+            [last_comment_timestamp] =&gt; 1599051621
+            [last_comment_name] =&gt; 
+            [last_comment_uid] =&gt; 1
+            [comment_count] =&gt; 0
+            [name] =&gt; admin
+            [picture] =&gt; 0
+            [data] =&gt; b:0;
+            [date] =&gt; 2020-09-02 15:00:21 +0200
+            [revision] =&gt; 
+            [menu] =&gt; Array
+                (
+                    [link_title] =&gt; 
+                    [mlid] =&gt; 0
+                    [plid] =&gt; 0
+                    [menu_name] =&gt; main-menu
+                    [weight] =&gt; 0
+                    [options] =&gt; Array
+                        (
+                        )
+
+                    [module] =&gt; menu
+                    [expanded] =&gt; 0
+                    [hidden] =&gt; 0
+                    [has_children] =&gt; 0
+                    [customized] =&gt; 0
+                    [parent_depth_limit] =&gt; 8
+                )
+
+        )
+
+    [additional_settings] =&gt; Array
+        (
+            [#type] =&gt; vertical_tabs
+            [#weight] =&gt; 99
+        )
+
+    [revision_information] =&gt; Array
+        (
+            [#type] =&gt; fieldset
+            [#title] =&gt; Revision information
+            [#collapsible] =&gt; 1
+            [#collapsed] =&gt; 1
+            [#group] =&gt; additional_settings
+            [#attributes] =&gt; Array
+                (
+                    [class] =&gt; Array
+                        (
+                            [0] =&gt; node-form-revision-information
+                        )
+
+                )
+
+            [#attached] =&gt; Array
+                (
+                    [js] =&gt; Array
+                        (
+                            [0] =&gt; modules/node/node.js
+                        )
+
+                )
+
+            [#weight] =&gt; 20
+            [#access] =&gt; 1
+            [revision] =&gt; Array
+                (
+                    [#type] =&gt; checkbox
+                    [#title] =&gt; Create new revision
+                    [#default_value] =&gt; 
+                    [#access] =&gt; 1
+                    [#states] =&gt; Array
+                        (
+                            [checked] =&gt; Array
+                                (
+                                    [textarea[name="log"]] =&gt; Array
+                                        (
+                                            [empty] =&gt; 
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [log] =&gt; Array
+                (
+                    [#type] =&gt; textarea
+                    [#title] =&gt; Revision log message
+                    [#rows] =&gt; 4
+                    [#default_value] =&gt; 
+                    [#description] =&gt; Provide an explanation of the changes you are making. This will help other authors understand your motivations.
+                )
+
+        )
+
+    [author] =&gt; Array
+        (
+            [#type] =&gt; fieldset
+            [#access] =&gt; 1
+            [#title] =&gt; Authoring information
+            [#collapsible] =&gt; 1
+            [#collapsed] =&gt; 1
+            [#group] =&gt; additional_settings
+            [#attributes] =&gt; Array
+                (
+                    [class] =&gt; Array
+                        (
+                            [0] =&gt; node-form-author
+                        )
+
+                )
+
+            [#attached] =&gt; Array
+                (
+                    [js] =&gt; Array
+                        (
+                            [0] =&gt; modules/node/node.js
+                            [1] =&gt; Array
+                                (
+                                    [type] =&gt; setting
+                                    [data] =&gt; Array
+                                        (
+                                            [anonymous] =&gt; Anonymous
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [#weight] =&gt; 90
+            [name] =&gt; Array
+                (
+                    [#type] =&gt; textfield
+                    [#title] =&gt; Authored by
+                    [#maxlength] =&gt; 60
+                    [#autocomplete_path] =&gt; user/autocomplete
+                    [#default_value] =&gt; admin
+                    [#weight] =&gt; -1
+                    [#description] =&gt; Leave blank for <em class="placeholder">Anonymous</em>.
+                )
+
+            [date] =&gt; Array
+                (
+                    [#type] =&gt; textfield
+                    [#title] =&gt; Authored on
+                    [#maxlength] =&gt; 25
+                    [#description] =&gt; Format: <em class="placeholder">2020-09-02 15:00:21 +0200</em>. The date format is YYYY-MM-DD and <em class="placeholder">+0200</em> is the time zone offset from UTC. Leave blank to use the time of form submission.
+                    [#default_value] =&gt; 2020-09-02 15:00:21 +0200
+                )
+
+        )
+
+    [options] =&gt; Array
+        (
+            [#type] =&gt; fieldset
+            [#access] =&gt; 1
+            [#title] =&gt; Publishing options
+            [#collapsible] =&gt; 1
+            [#collapsed] =&gt; 1
+            [#group] =&gt; additional_settings
+            [#attributes] =&gt; Array
+                (
+                    [class] =&gt; Array
+                        (
+                            [0] =&gt; node-form-options
+                        )
+
+                )
+
+            [#attached] =&gt; Array
+                (
+                    [js] =&gt; Array
+                        (
+                            [0] =&gt; modules/node/node.js
+                        )
+
+                )
+
+            [#weight] =&gt; 95
+            [status] =&gt; Array
+                (
+                    [#type] =&gt; checkbox
+                    [#title] =&gt; Published
+                    [#default_value] =&gt; 1
+                )
+
+            [promote] =&gt; Array
+                (
+                    [#type] =&gt; checkbox
+                    [#title] =&gt; Promoted to front page
+                    [#default_value] =&gt; 1
+                )
+
+            [sticky] =&gt; Array
+                (
+                    [#type] =&gt; checkbox
+                    [#title] =&gt; Sticky at top of lists
+                    [#default_value] =&gt; 0
+                )
+
+        )
+
+    [actions] =&gt; Array
+        (
+            [#type] =&gt; actions
+            [submit] =&gt; Array
+                (
+                    [#type] =&gt; submit
+                    [#access] =&gt; 1
+                    [#value] =&gt; Save
+                    [#weight] =&gt; 5
+                    [#submit] =&gt; Array
+                        (
+                            [0] =&gt; node_form_submit
+                        )
+
+                )
+
+            [preview] =&gt; Array
+                (
+                    [#access] =&gt; 1
+                    [#type] =&gt; submit
+                    [#value] =&gt; Preview
+                    [#weight] =&gt; 10
+                    [#submit] =&gt; Array
+                        (
+                            [0] =&gt; node_form_build_preview
+                        )
+
+                )
+
+            [delete] =&gt; Array
+                (
+                    [#type] =&gt; submit
+                    [#value] =&gt; Delete
+                    [#weight] =&gt; 15
+                    [#submit] =&gt; Array
+                        (
+                            [0] =&gt; node_form_delete_submit
+                        )
+
+                )
+
+        )
+
+    [#validate] =&gt; Array
+        (
+            [0] =&gt; node_form_validate
+        )
+
+    [#submit] =&gt; Array
+        (
+        )
+
+    [#parents] =&gt; Array
+        (
+        )
+
+    [#entity] =&gt; stdClass Object
+        (
+            [vid] =&gt; 4
+            [uid] =&gt; 1
+            [title] =&gt; Job 3
+            [log] =&gt; 
+            [status] =&gt; 1
+            [comment] =&gt; 1
+            [promote] =&gt; 1
+            [sticky] =&gt; 0
+            [nid] =&gt; 4
+            [type] =&gt; job
+            [language] =&gt; und
+            [created] =&gt; 1599051621
+            [changed] =&gt; 1599051621
+            [tnid] =&gt; 0
+            [translate] =&gt; 0
+            [revision_timestamp] =&gt; 1599051621
+            [revision_uid] =&gt; 1
+            [body] =&gt; Array
+                (
+                    [und] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [value] =&gt; 1914 translation by H. Rackham
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+                                    [summary] =&gt; 
+                                    [format] =&gt; filtered_html
+                                    [safe_value] =&gt; <p>1914 translation by H. Rackham<br>
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
+
+                                    [safe_summary] =&gt; 
+                                )
+
+                        )
+
+                )
+
+            [field_employment_type] =&gt; Array
+                (
+                    [und] =&gt; Array
+                        (
+                            [0] =&gt; Array
+                                (
+                                    [value] =&gt; freelance
+                                )
+
+                        )
+
+                )
+
+            [rdf_mapping] =&gt; Array
+                (
+                    [rdftype] =&gt; Array
+                        (
+                            [0] =&gt; sioc:Item
+                            [1] =&gt; foaf:Document
+                        )
+
+                    [title] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; dc:title
+                                )
+
+                        )
+
+                    [created] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; dc:date
+                                    [1] =&gt; dc:created
+                                )
+
+                            [datatype] =&gt; xsd:dateTime
+                            [callback] =&gt; date_iso8601
+                        )
+
+                    [changed] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; dc:modified
+                                )
+
+                            [datatype] =&gt; xsd:dateTime
+                            [callback] =&gt; date_iso8601
+                        )
+
+                    [body] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; content:encoded
+                                )
+
+                        )
+
+                    [uid] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; sioc:has_creator
+                                )
+
+                            [type] =&gt; rel
+                        )
+
+                    [name] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; foaf:name
+                                )
+
+                        )
+
+                    [comment_count] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; sioc:num_replies
+                                )
+
+                            [datatype] =&gt; xsd:integer
+                        )
+
+                    [last_activity] =&gt; Array
+                        (
+                            [predicates] =&gt; Array
+                                (
+                                    [0] =&gt; sioc:last_activity_date
+                                )
+
+                            [datatype] =&gt; xsd:dateTime
+                            [callback] =&gt; date_iso8601
+                        )
+
+                )
+
+            [cid] =&gt; 0
+            [last_comment_timestamp] =&gt; 1599051621
+            [last_comment_name] =&gt; 
+            [last_comment_uid] =&gt; 1
+            [comment_count] =&gt; 0
+            [name] =&gt; admin
+            [picture] =&gt; 0
+            [data] =&gt; b:0;
+            [date] =&gt; 2020-09-02 15:00:21 +0200
+            [revision] =&gt; 
+            [menu] =&gt; Array
+                (
+                    [link_title] =&gt; 
+                    [mlid] =&gt; 0
+                    [plid] =&gt; 0
+                    [menu_name] =&gt; main-menu
+                    [weight] =&gt; 0
+                    [options] =&gt; Array
+                        (
+                        )
+
+                    [module] =&gt; menu
+                    [expanded] =&gt; 0
+                    [hidden] =&gt; 0
+                    [has_children] =&gt; 0
+                    [customized] =&gt; 0
+                    [parent_depth_limit] =&gt; 8
+                )
+
+        )
+
+    [body] =&gt; Array
+        (
+            [#type] =&gt; container
+            [#attributes] =&gt; Array
+                (
+                    [class] =&gt; Array
+                        (
+                            [0] =&gt; field-type-text-with-summary
+                            [1] =&gt; field-name-body
+                            [2] =&gt; field-widget-text-textarea-with-summary
+                        )
+
+                )
+
+            [#weight] =&gt; -4
+            [#tree] =&gt; 1
+            [#language] =&gt; und
+            [und] =&gt; Array
+                (
+                    [0] =&gt; Array
+                        (
+                            [#entity_type] =&gt; node
+                            [#entity] =&gt; stdClass Object
+                                (
+                                    [vid] =&gt; 4
+                                    [uid] =&gt; 1
+                                    [title] =&gt; Job 3
+                                    [log] =&gt; 
+                                    [status] =&gt; 1
+                                    [comment] =&gt; 1
+                                    [promote] =&gt; 1
+                                    [sticky] =&gt; 0
+                                    [nid] =&gt; 4
+                                    [type] =&gt; job
+                                    [language] =&gt; und
+                                    [created] =&gt; 1599051621
+                                    [changed] =&gt; 1599051621
+                                    [tnid] =&gt; 0
+                                    [translate] =&gt; 0
+                                    [revision_timestamp] =&gt; 1599051621
+                                    [revision_uid] =&gt; 1
+                                    [body] =&gt; Array
+                                        (
+                                            [und] =&gt; Array
+                                                (
+                                                    [0] =&gt; Array
+                                                        (
+                                                            [value] =&gt; 1914 translation by H. Rackham
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+                                                            [summary] =&gt; 
+                                                            [format] =&gt; filtered_html
+                                                            [safe_value] =&gt; <p>1914 translation by H. Rackham<br>
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
+
+                                                            [safe_summary] =&gt; 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [field_employment_type] =&gt; Array
+                                        (
+                                            [und] =&gt; Array
+                                                (
+                                                    [0] =&gt; Array
+                                                        (
+                                                            [value] =&gt; freelance
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [rdf_mapping] =&gt; Array
+                                        (
+                                            [rdftype] =&gt; Array
+                                                (
+                                                    [0] =&gt; sioc:Item
+                                                    [1] =&gt; foaf:Document
+                                                )
+
+                                            [title] =&gt; Array
+                                                (
+                                                    [predicates] =&gt; Array
+                                                        (
+                                                            [0] =&gt; dc:title
+                                                        )
+
+                                                )
+
+                                            [created] =&gt; Array
+                                                (
+                                                    [predicates] =&gt; Array
+                                                        (
+                                                            [0] =&gt; dc:date
+                                                            [1] =&gt; dc:created
+                                                        )
+
+                                                    [datatype] =&gt; xsd:dateTime
+                                                    [callback] =&gt; date_iso8601
+                                                )
+
+                                            [changed] =&gt; Array
+                                                (
+                                                    [predicates] =&gt; Array
+                                                        (
+                                                            [0] =&gt; dc:modified
+                                                        )
+
+                                                    [datatype] =&gt; xsd:dateTime
+                                                    [callback] =&gt; date_iso8601
+                                                )
+
+                                            [body] =&gt; Array
+                                                (
+                                                    [predicates] =&gt; Array
+                                                        (
+                                                            [0] =&gt; content:encoded
+                                                        )
+
+                                                )
+
+                                            [uid] =&gt; Array
+                                                (
+                                                    [predicates] =&gt; Array
+                                                        (
+                                                            [0] =&gt; sioc:has_creator
+                                                        )
+
+                                                    [type] =&gt; rel
+                                                )
+
+                                            [name] =&gt; Array
+                                                (
+                                                    [predicates] =&gt; Array
+                                                        (
+                                                            [0] =&gt; foaf:name
+                                                        )
+
+                                                )
+
+                                            [comment_count] =&gt; Array
+                                                (
+                                                    [predicates] =&gt; Array
+                                                        (
+                                                            [0] =&gt; sioc:num_replies
+                                                        )
+
+                                                    [datatype] =&gt; xsd:integer
+                                                )
+
+                                            [last_activity] =&gt; Array
+                                                (
+                                                    [predicates] =&gt; Array
+                                                        (
+                                                            [0] =&gt; sioc:last_activity_date
+                                                        )
+
+                                                    [datatype] =&gt; xsd:dateTime
+                                                    [callback] =&gt; date_iso8601
+                                                )
+
+                                        )
+
+                                    [cid] =&gt; 0
+                                    [last_comment_timestamp] =&gt; 1599051621
+                                    [last_comment_name] =&gt; 
+                                    [last_comment_uid] =&gt; 1
+                                    [comment_count] =&gt; 0
+                                    [name] =&gt; admin
+                                    [picture] =&gt; 0
+                                    [data] =&gt; b:0;
+                                    [date] =&gt; 2020-09-02 15:00:21 +0200
+                                    [revision] =&gt; 
+                                    [menu] =&gt; Array
+                                        (
+                                            [link_title] =&gt; 
+                                            [mlid] =&gt; 0
+                                            [plid] =&gt; 0
+                                            [menu_name] =&gt; main-menu
+                                            [weight] =&gt; 0
+                                            [options] =&gt; Array
+                                                (
+                                                )
+
+                                            [module] =&gt; menu
+                                            [expanded] =&gt; 0
+                                            [hidden] =&gt; 0
+                                            [has_children] =&gt; 0
+                                            [customized] =&gt; 0
+                                            [parent_depth_limit] =&gt; 8
+                                        )
+
+                                )
+
+                            [#bundle] =&gt; job
+                            [#field_name] =&gt; body
+                            [#language] =&gt; und
+                            [#field_parents] =&gt; Array
+                                (
+                                )
+
+                            [#columns] =&gt; Array
+                                (
+                                    [0] =&gt; value
+                                    [1] =&gt; summary
+                                    [2] =&gt; format
+                                )
+
+                            [#title] =&gt; Body
+                            [#description] =&gt; 
+                            [#required] =&gt; 
+                            [#delta] =&gt; 0
+                            [#weight] =&gt; 0
+                            [#type] =&gt; text_format
+                            [#default_value] =&gt; 1914 translation by H. Rackham
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+                            [#rows] =&gt; 20
+                            [#attributes] =&gt; Array
+                                (
+                                    [class] =&gt; Array
+                                        (
+                                            [0] =&gt; text-full
+                                        )
+
+                                )
+
+                            [#format] =&gt; filtered_html
+                            [#base_type] =&gt; textarea
+                            [summary] =&gt; Array
+                                (
+                                    [#type] =&gt; textarea
+                                    [#default_value] =&gt; 
+                                    [#title] =&gt; Summary
+                                    [#rows] =&gt; 5
+                                    [#description] =&gt; Leave blank to use trimmed value of full text as the summary.
+                                    [#attached] =&gt; Array
+                                        (
+                                            [js] =&gt; Array
+                                                (
+                                                    [0] =&gt; modules/field/modules/text/text.js
+                                                )
+
+                                        )
+
+                                    [#attributes] =&gt; Array
+                                        (
+                                            [class] =&gt; Array
+                                                (
+                                                    [0] =&gt; text-summary
+                                                )
+
+                                        )
+
+                                    [#prefix] =&gt; <div class="text-summary-wrapper">
+                                    [#suffix] =&gt; </div>
+                                    [#weight] =&gt; -10
+                                )
+
+                        )
+
+                    [#theme] =&gt; field_multiple_value_form
+                    [#field_name] =&gt; body
+                    [#cardinality] =&gt; 1
+                    [#title] =&gt; Body
+                    [#required] =&gt; 
+                    [#description] =&gt; 
+                    [#prefix] =&gt; <div id="body-add-more-wrapper">
+                    [#suffix] =&gt; </div>
+                    [#max_delta] =&gt; 0
+                    [#after_build] =&gt; Array
+                        (
+                            [0] =&gt; field_form_element_after_build
+                        )
+
+                    [#language] =&gt; und
+                    [#field_parents] =&gt; Array
+                        (
+                        )
+
+                )
+
+            [#access] =&gt; 1
+        )
+
+    [field_employment_type] =&gt; Array
+        (
+            [#type] =&gt; container
+            [#attributes] =&gt; Array
+                (
+                    [class] =&gt; Array
+                        (
+                            [0] =&gt; field-type-list-text
+                            [1] =&gt; field-name-field-employment-type
+                            [2] =&gt; field-widget-options-select
+                        )
+
+                )
+
+            [#weight] =&gt; -3
+            [#tree] =&gt; 1
+            [#language] =&gt; und
+            [und] =&gt; Array
+                (
+                    [#entity] =&gt; stdClass Object
+                        (
+                            [vid] =&gt; 4
+                            [uid] =&gt; 1
+                            [title] =&gt; Job 3
+                            [log] =&gt; 
+                            [status] =&gt; 1
+                            [comment] =&gt; 1
+                            [promote] =&gt; 1
+                            [sticky] =&gt; 0
+                            [nid] =&gt; 4
+                            [type] =&gt; job
+                            [language] =&gt; und
+                            [created] =&gt; 1599051621
+                            [changed] =&gt; 1599051621
+                            [tnid] =&gt; 0
+                            [translate] =&gt; 0
+                            [revision_timestamp] =&gt; 1599051621
+                            [revision_uid] =&gt; 1
+                            [body] =&gt; Array
+                                (
+                                    [und] =&gt; Array
+                                        (
+                                            [0] =&gt; Array
+                                                (
+                                                    [value] =&gt; 1914 translation by H. Rackham
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+                                                    [summary] =&gt; 
+                                                    [format] =&gt; filtered_html
+                                                    [safe_value] =&gt; <p>1914 translation by H. Rackham<br>
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
+
+                                                    [safe_summary] =&gt; 
+                                                )
+
+                                        )
+
+                                )
+
+                            [field_employment_type] =&gt; Array
+                                (
+                                    [und] =&gt; Array
+                                        (
+                                            [0] =&gt; Array
+                                                (
+                                                    [value] =&gt; freelance
+                                                )
+
+                                        )
+
+                                )
+
+                            [rdf_mapping] =&gt; Array
+                                (
+                                    [rdftype] =&gt; Array
+                                        (
+                                            [0] =&gt; sioc:Item
+                                            [1] =&gt; foaf:Document
+                                        )
+
+                                    [title] =&gt; Array
+                                        (
+                                            [predicates] =&gt; Array
+                                                (
+                                                    [0] =&gt; dc:title
+                                                )
+
+                                        )
+
+                                    [created] =&gt; Array
+                                        (
+                                            [predicates] =&gt; Array
+                                                (
+                                                    [0] =&gt; dc:date
+                                                    [1] =&gt; dc:created
+                                                )
+
+                                            [datatype] =&gt; xsd:dateTime
+                                            [callback] =&gt; date_iso8601
+                                        )
+
+                                    [changed] =&gt; Array
+                                        (
+                                            [predicates] =&gt; Array
+                                                (
+                                                    [0] =&gt; dc:modified
+                                                )
+
+                                            [datatype] =&gt; xsd:dateTime
+                                            [callback] =&gt; date_iso8601
+                                        )
+
+                                    [body] =&gt; Array
+                                        (
+                                            [predicates] =&gt; Array
+                                                (
+                                                    [0] =&gt; content:encoded
+                                                )
+
+                                        )
+
+                                    [uid] =&gt; Array
+                                        (
+                                            [predicates] =&gt; Array
+                                                (
+                                                    [0] =&gt; sioc:has_creator
+                                                )
+
+                                            [type] =&gt; rel
+                                        )
+
+                                    [name] =&gt; Array
+                                        (
+                                            [predicates] =&gt; Array
+                                                (
+                                                    [0] =&gt; foaf:name
+                                                )
+
+                                        )
+
+                                    [comment_count] =&gt; Array
+                                        (
+                                            [predicates] =&gt; Array
+                                                (
+                                                    [0] =&gt; sioc:num_replies
+                                                )
+
+                                            [datatype] =&gt; xsd:integer
+                                        )
+
+                                    [last_activity] =&gt; Array
+                                        (
+                                            [predicates] =&gt; Array
+                                                (
+                                                    [0] =&gt; sioc:last_activity_date
+                                                )
+
+                                            [datatype] =&gt; xsd:dateTime
+                                            [callback] =&gt; date_iso8601
+                                        )
+
+                                )
+
+                            [cid] =&gt; 0
+                            [last_comment_timestamp] =&gt; 1599051621
+                            [last_comment_name] =&gt; 
+                            [last_comment_uid] =&gt; 1
+                            [comment_count] =&gt; 0
+                            [name] =&gt; admin
+                            [picture] =&gt; 0
+                            [data] =&gt; b:0;
+                            [date] =&gt; 2020-09-02 15:00:21 +0200
+                            [revision] =&gt; 
+                            [menu] =&gt; Array
+                                (
+                                    [link_title] =&gt; 
+                                    [mlid] =&gt; 0
+                                    [plid] =&gt; 0
+                                    [menu_name] =&gt; main-menu
+                                    [weight] =&gt; 0
+                                    [options] =&gt; Array
+                                        (
+                                        )
+
+                                    [module] =&gt; menu
+                                    [expanded] =&gt; 0
+                                    [hidden] =&gt; 0
+                                    [has_children] =&gt; 0
+                                    [customized] =&gt; 0
+                                    [parent_depth_limit] =&gt; 8
+                                )
+
+                        )
+
+                    [#entity_type] =&gt; node
+                    [#bundle] =&gt; job
+                    [#field_name] =&gt; field_employment_type
+                    [#language] =&gt; und
+                    [#field_parents] =&gt; Array
+                        (
+                        )
+
+                    [#columns] =&gt; Array
+                        (
+                            [0] =&gt; value
+                        )
+
+                    [#title] =&gt; employment type
+                    [#description] =&gt; 
+                    [#required] =&gt; 
+                    [#delta] =&gt; 0
+                    [#type] =&gt; select
+                    [#default_value] =&gt; Array
+                        (
+                            [0] =&gt; freelance
+                        )
+
+                    [#multiple] =&gt; 
+                    [#options] =&gt; Array
+                        (
+                            [_none] =&gt; - None -
+                            [full_time] =&gt; full time
+                            [part_time] =&gt; part time
+                            [freelance] =&gt; freelance
+                        )
+
+                    [#value_key] =&gt; value
+                    [#element_validate] =&gt; Array
+                        (
+                            [0] =&gt; options_field_widget_validate
+                        )
+
+                    [#properties] =&gt; Array
+                        (
+                            [strip_tags_and_unescape] =&gt; 1
+                            [optgroups] =&gt; 1
+                            [empty_option] =&gt; option_none
+                            [filter_xss] =&gt; 
+                            [strip_tags] =&gt; 
+                        )
+
+                    [#after_build] =&gt; Array
+                        (
+                            [0] =&gt; field_form_element_after_build
+                        )
+
+                    [#attributes] =&gt; Array
+                        (
+                            [disabled] =&gt; disabled
+                        )
+
+                )
+
+            [#access] =&gt; 1
+        )
+
+    [#pre_render] =&gt; Array
+        (
+            [0] =&gt; _field_extra_fields_pre_render
+        )
+
+    [#entity_type] =&gt; node
+    [#bundle] =&gt; job
+    [#form_id] =&gt; job_node_form
+    [#type] =&gt; form
+    [#build_id] =&gt; form-Ju5lhUMcAMqsevK0XSTRjo9V5kA2Ma195KLTJgUBTxU
+    [form_build_id] =&gt; Array
+        (
+            [#type] =&gt; hidden
+            [#value] =&gt; form-Ju5lhUMcAMqsevK0XSTRjo9V5kA2Ma195KLTJgUBTxU
+            [#id] =&gt; form-Ju5lhUMcAMqsevK0XSTRjo9V5kA2Ma195KLTJgUBTxU
+            [#name] =&gt; form_build_id
+            [#parents] =&gt; Array
+                (
+                    [0] =&gt; form_build_id
+                )
+
+        )
+
+    [#token] =&gt; job_node_form
+    [form_token] =&gt; Array
+        (
+            [#id] =&gt; edit-job-node-form-form-token
+            [#type] =&gt; token
+            [#default_value] =&gt; 9DlfTHYrWjnkQTZ0EW_4nuFZDrbow8LVH45A2gWFPtQ
+            [#parents] =&gt; Array
+                (
+                    [0] =&gt; form_token
+                )
+
+        )
+
+    [form_id] =&gt; Array
+        (
+            [#type] =&gt; hidden
+            [#value] =&gt; job_node_form
+            [#id] =&gt; edit-job-node-form
+            [#parents] =&gt; Array
+                (
+                    [0] =&gt; form_id
+                )
+
+        )
+
+    [#id] =&gt; job-node-form
+    [#method] =&gt; post
+    [#action] =&gt; /node/4/edit?render=overlay
+    [#theme_wrappers] =&gt; Array
+        (
+            [0] =&gt; form
+        )
+
+    [#tree] =&gt; 
+    [#theme] =&gt; Array
+        (
+            [0] =&gt; job_node_form
+            [1] =&gt; node_form
+        )
+
+    [comment_settings] =&gt; Array
+        (
+            [#type] =&gt; fieldset
+            [#access] =&gt; 1
+            [#title] =&gt; Comment settings
+            [#collapsible] =&gt; 1
+            [#collapsed] =&gt; 1
+            [#group] =&gt; additional_settings
+            [#attributes] =&gt; Array
+                (
+                    [class] =&gt; Array
+                        (
+                            [0] =&gt; comment-node-settings-form
+                        )
+
+                )
+
+            [#attached] =&gt; Array
+                (
+                    [js] =&gt; Array
+                        (
+                            [0] =&gt; modules/comment/comment-node-form.js
+                        )
+
+                )
+
+            [#weight] =&gt; 30
+            [comment] =&gt; Array
+                (
+                    [#type] =&gt; radios
+                    [#title] =&gt; Comments
+                    [#title_display] =&gt; invisible
+                    [#parents] =&gt; Array
+                        (
+                            [0] =&gt; comment
+                        )
+
+                    [#default_value] =&gt; 1
+                    [#options] =&gt; Array
+                        (
+                            [2] =&gt; Open
+                            [1] =&gt; Closed
+                            [0] =&gt; Hidden
+                        )
+
+                    [2] =&gt; Array
+                        (
+                            [#description] =&gt; Users with the "Post comments" permission can post comments.
+                        )
+
+                    [1] =&gt; Array
+                        (
+                            [#description] =&gt; Users cannot post comments.
+                        )
+
+                    [0] =&gt; Array
+                        (
+                            [#description] =&gt; Comments are hidden from view.
+                            [#access] =&gt; 
+                        )
+
+                )
+
+        )
+
+)
+</pre>

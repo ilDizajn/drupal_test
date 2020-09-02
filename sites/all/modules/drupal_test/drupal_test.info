@@ -1,0 +1,5 @@
+name = "drupal_test"
+description = "drupal_test description"
+core = "7.x"
+version = "0.1"
+dependencies[] = "views"

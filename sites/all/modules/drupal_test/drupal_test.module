@@ -1,0 +1,27 @@
+<?php
+
+/** 
+ @file drupal_test.module 
+ Requirement: when a job is created with the employment type "freelance" 
+ then it must be forbidden to change it when the job is edited again. 
+ On the job edit form the field employment type should be disabled (greyed out) in this case. 
+ If the employment type is set to "full time" or "part time" then the field should be editable as usual.
+ */
+
+
+/*
+ * Implementation of hook_form_alter()
+ */
+function drupal_test_form_alter(&$form, &$form_state, $form_id) {
+
+    // if freelance
+    if ($form_id == "job_node_form" && $form['field_employment_type']['und']['#entity']->field_employment_type['und']['0']['value'] == "freelance") {
+
+        // disable select
+        $form['field_employment_type']['und']['#attributes'] = ['disabled' => 'disabled'];
+
+        /* echo '<pre style="color:white">';
+        print_r($form['field_employment_type']);
+        echo "</pre>"; */
+    }
+}
